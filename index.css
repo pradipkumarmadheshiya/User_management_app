@@ -1,0 +1,74 @@
+#container{
+    padding: 40px 20px;
+}
+#loadDataBtn{
+    border: none;
+    color: white;
+    background-color: rgb(59, 113, 250);
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#userDataBox{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+}
+#userForm{
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+}
+#idInp{
+    background-color: rgb(236, 236, 236);
+    border: 1px solid gray;
+}
+#idBox{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+}
+#nameBox{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+}
+#emailBox{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+}
+#saveDeleteBtn{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+#saveBtn{
+    border: none;
+    color: white;
+    background-color: rgb(59, 113, 250);
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#deleteBtn{
+    border: none;
+    color: white;
+    background-color: rgb(255, 62, 62);
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}

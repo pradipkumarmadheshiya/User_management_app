@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Professional DOM Manipulation</h2>
+        <button id="loadDataBtn">Load Data</button>
+        <div id="userDataBox">
+        </div>
+    </div>
+    <!-- user form -->
+    <div id="userForm">
+        <h3>User Form</h3>
+        <form>
+            <div id="idBox">
+                <label for="id">ID (Auto fill)</label>
+                <input type="number" name="id" id="idInp">
+            </div>
+            <div id="nameBox">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="nameInp">
+            </div>
+            <div id="emailBox">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="emailInp">
+            </div>
+            <div id="saveDeleteBtn">
+                <button type="submit" id="saveBtn">Save</button>
+                <button id="deleteBtn">Delete</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
